@@ -5,7 +5,7 @@ from keras.models import Sequential, Model
 from keras.layers import Dense, Activation, Input, GlobalAveragePooling2D
 from keras.layers import Dropout, Flatten, Conv2D, add, MaxPooling2D
 from keras.optimizers import SGD, Adam
-from keras.layers.normalization import BatchNormalization
+from tensorflow.keras.layers import BatchNormalization
 from keras import regularizers, optimizers, initializers
 
 from keras import regularizers, losses, initializers
